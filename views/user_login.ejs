@@ -1,0 +1,22 @@
+<%- include('./partials/header'); %>
+
+    <body class="h-screen w-screen flex items-center justify-center bg-gray-100">
+
+        <div class="relative h-full w-full">
+            <!-- Full-screen Image -->
+            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Blinkit-yellow-rounded.svg/640px-Blinkit-yellow-rounded.svg.png"
+            class="object-cover"
+            style="height: 100vh; width: 100vw;" alt="Background Image" class="object-cover w-full h-full">
+
+            <!-- Button at the Bottom -->
+            <div class="absolute bottom-0 w-full flex justify-center mb-8">
+                <a href="/auth/google"
+                    class="bg-black text-white font-semibold py-3 px-6 rounded-lg hover:bg-black transition duration-300">
+                    Continue with Google
+                </a>
+            </div>
+        </div>
+
+    </body>
+
+    <%- include('./partials/footer'); %>
